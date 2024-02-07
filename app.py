@@ -84,7 +84,7 @@ def list_tickets():
 
 @app.get('/docs')
 def display_doc():
-    return get_swagger_ui_html(openapi_url="/openapi.json")
+    return get_swagger_ui_html(openapi_url="openapi.json")
 
 
 
